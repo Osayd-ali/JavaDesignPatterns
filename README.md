@@ -16,3 +16,23 @@ An exploration of a modified Singleton pattern that manages exactly three instan
                   * Inherent thread safety
                   * Predictable memory usage
                   * No synchronization overhead
+
+# Part 2: GUI Framework Using Abstract Factory
+A cross-platform GUI framework implementation that demonstrates the Abstract Factory pattern. The system creates platform-specific UI components while maintaining a consistent interface across different operating systems.
+
+# Design Architecture
+# Factory Layer
+ * Abstract GUI Factory Interface
+ * Platform-Specific Factory Implementations
+ * Component Creation Protocols
+# Component Layer
+ * Abstract Component Definitions
+ * Platform-Specific Implementations
+ * Rendering Mechanisms
+
+# Design Considerations
+ * Platform independence
+ * Extensibility for new platforms
+ * Interface consistency
+ * Factory method implementations
+ * Component lifecycle management
